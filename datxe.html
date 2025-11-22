@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dat xe</title>
+</head>
+<link rel="stylesheet" href="datxe.css">
+<body>
+</html>
+<header>
+        <div class="header-logo"><img src="OIP (2).webp" alt="sdad" width="100px" height="50px">
+        </div>
+       <marquee> sieuxemay36</marquee>
+
+       </header>
+  <nav>
+    <ul>
+    <li><a href="index.html">Trang chủ</a> </li>
+
+<li ><a href="#products">Sản phẩm</a>
+<ul>
+    <ol><a href="wave.html">WAVE</a></ol>
+    <ol><a href="vision.html">VISION</a></ol>
+    <ol><a href="dream.html">DREAN</a></ol>
+    <ol><a href="sh.html">SH</a></ol>
+    
+</ul>
+</li>
+    
+    <a href="#contact">Liên hệ</a>
+    <div class="search-box">
+    <input type="search" 
+    class="search-txt"
+    name=""
+    placeholder="Bạn muỗn tìm xe nào">
+    <a href="#" class="search-btn" > <ion-icon name="search-outline"></ion-icon></a> 
+    </div>
+  </nav>
+<div class="grid">
+<label>
+Họ và tên
+<input type="text" name="name" required placeholder="Nguyễn Văn A">
+</label>
+<label>
+Số điện thoại
+<input type="tel" name="phone" required placeholder="0912xxxxxx">
+</label>
+<label class="full">
+Địa chỉ giao hàng
+<input type="text" name="address" required placeholder="Số nhà, đường, quận">
+</label>
+<label>
+Email
+<input type="email" name="email" placeholder="email@domain.com">
+</label>
+</div>
+
+
+<h3>Phương thức thanh toán (Không dùng JavaScript)</h3>
+
+
+<!-- Thanh toán -->
+<div class="payment-options">
+<input type="radio" id="pay-cod" name="payment" value="cod" checked>
+<label for="pay-cod" class="pay-label">Thanh toán khi nhận hàng (COD)</label>
+
+
+<input type="radio" id="pay-bank" name="payment" value="bank">
+<label for="pay-bank" class="pay-label">Chuyển khoản ngân hàng</label>
+
+
+<!-- Chi tiết ngân hàng chỉ hiển thị khi radio #pay-bank được chọn -->
+<div class="payment-details bank-details">
+<p><strong>Thông tin chuyển khoản:</strong></p>
+<p>Ngân hàng: VietDemo Bank</p>
+<p>Chủ TK: Cửa hàng Xe Demo</p>
+<p>Số TK: 0123 456 789</p>
+<label>
+Tên người chuyển (ghi rõ):
+<input type="text" name="bank_sender_name" placeholder="Nguyễn Văn A">
+</label>
+<label>
+Ghi chú (mã đơn hàng / số điện thoại):
+<input type="text" name="bank_note" placeholder="MDH12345">
+</label>
+</div>
+
+
+<input type="radio" id="pay-card" name="payment" value="card">
+<label for="pay-card" class="pay-label">Thẻ / Thanh toán trực tuyến</label>
+
+
+<!-- Chi tiết thẻ  -->
+<div class="payment-details card-details">
+<p><strong>Thanh toán trực tuyến:</strong> Hệ thống sẽ chuyển sang cổng thanh toán an toàn (ví dụ Napas/Stripe).</p>
+<p>Vui lòng chuẩn bị thông tin thẻ: tên, số thẻ, ngày hết hạn, CVV. (Trong demo, server sẽ xử lý.)</p>
+</div>
+</div>
+
+
+<div class="actions">
+<button type="submit" class="btn primary">Xác nhận và thanh toán</button>
+<button type="reset" class="btn">Làm lại</button>
+</div>
+
+
+<p class="note">Lưu ý: đây là mẫu front-end không có JavaScript. Việc hiển thị chi tiết phương thức thanh toán dùng CSS (:checked) — xử lý thanh toán thật cần back-end.</p>
+</form>
+
+
+</section>
+<section id="contact" style="max-width:700px;margin:40px auto;background:white;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.1)">
+    <h2>Liên hệ</h2>
+    <p> Địa chỉ: 36 rayma, raumania</p>
+    <p> Số điện thoại: 0333 666 366</p>
+    <p> Email: raumamotor.vn</p>
+  </section>
+  </main>
+
+  <footer>© 2025 Cửa hàng xe máy 36 raumotor - Thiết kế bởi Hân Nguyễn</footer>
+  </div>
+</main>
+</footer>
+</body>
+</html>
